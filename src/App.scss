@@ -1,0 +1,35 @@
+$gray: #9e9e9e;
+$black: #252525;
+
+.App-header {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  .App-logo {
+    max-width: 50px;
+    margin-right: 7px;
+  }
+  .Text {
+    span {
+      font-size: 12px;
+      color: $gray;
+    }
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
